@@ -52,7 +52,7 @@ export default function Home() {
             <div className="connect-icons">
               <a href="https://www.linkedin.com/in/chinmoy-dehingia-02a352137/" target={0}><img src={linkedin} alt="" /></a>
               <a href="https://github.com/chinmoy-7" target={0}><img src={github} alt="" /></a>
-              <a href=""><img src={cv} alt="" /></a>
+              <a href="https://drive.google.com/file/d/1YwH6KCbArVY6jwBi8HFH_sQ8eaLMR85t/view?usp=share_link"><img src={cv} alt="" /></a>
             </div>
           </div>
           <div className="home-right">
