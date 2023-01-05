@@ -44,7 +44,7 @@ export default function Home() {
             </h1>
             <p>
               I’m an aspiring Full Stack Developer looking for a new role in an
-              exciting company. I am a creative front-end developer based in
+              exciting company. I am a creative developer based in
               India. I have hands-on experience in building projects using HTML,
               CSS, Javascript, and MERN stack. I speacialise in creating
               interactive experiences using React.
