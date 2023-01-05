@@ -1,0 +1,84 @@
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height  : 100vh;
+    background-image: linear-gradient(#09203F,#537895);
+}
+.portfolio-header{
+    position: relative;
+    top:12%;
+    color: white;
+    height: 40%;
+    width: 100%;
+}
+.portfolio-header>h1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: underline green;
+    font-size: 3.5rem;
+}
+.portfolio-header>p{
+    font-size: 1.3rem;
+    color: white;
+}
+.portfolio-content{
+    /* position: relative; */
+    margin-top:100px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: red; */
+}
+.portfolio-box{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    width: 30%;
+    /* background-color: red; */
+}
+/* .portfolio-box:hover{
+
+    height: 46%;
+    width: 31%;
+    transition:  width 0.2s linear;
+    transition:  height 0.1s linear;
+    background-color: red;
+} */
+.portfolio-box>.portfolio-box-top{
+    height: 65%;
+    width: 100%;
+    border: 1px solid white;
+    /* background-color: green; */
+}
+.portfolio-box>.portfolio-box-top>img{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+}
+.portfolio-box>.portfolio-box-bottom{
+    box-shadow: -2px 2px 15px 2px purple;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35%;
+    width: 100%;
+    /* color: white; */
+    background-color: black;
+}
+.portfolio-box>.portfolio-box-bottom>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.portfolio-box>.portfolio-box-bottom>a:hover{
+    color: purple;
+    font-size: 1.5rem;
+    transition: font-size 0.2s linear;
+}
